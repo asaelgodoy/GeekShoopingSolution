@@ -6,7 +6,7 @@ namespace GeekShopping.ProductAPI.Model
 {
     [Table("product")]
     public class Product : BaseEntitiy
-    {
+    {      
         [Column("name")]
         [Required]
         [StringLength(150)]
